@@ -13,7 +13,7 @@ public class IphoneCell implements MusicPlayer, Phone, Browser {
     private static final Scanner terminal = new Scanner(System.in);
 
     public IphoneCell() {
-        int operation = 0;
+        int operation;
         System.out.println("Iphone iniciado");
         do{
             System.out.println("Selecione uma opção: ");
